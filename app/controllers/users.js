@@ -751,7 +751,7 @@ exports.session = function(req, res) {
  * Create user
  */
 exports.create = function(req, res, next) {
-	var user = new User(req.body);
+  var user = new User(req.body);
 	var message = null;
 
 	// generate user gravatar

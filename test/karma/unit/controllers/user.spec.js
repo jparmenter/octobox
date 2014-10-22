@@ -53,7 +53,7 @@
 			it('$scope.findOne() should create an user array that does not equal null', function() {
 					// fixture URL parament
 					$stateParams.userId = '525a8422f6d0f87f0e407a33';
-					
+
 					// fixture response object
 					var testUserData = function() {
 						return {
@@ -113,7 +113,6 @@
 				expect($location.path()).toBe('/');
 				expect(scope.user.name).toBe(newName);
 			}));
-
 		});
 	});
 }());
